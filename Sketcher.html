@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Mouse-a-Sketch</title>
+        <link type="text/css" rel="stylesheet" href="sketchStyle.css"/>   
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="sketchScript.js"></script>         
+	</head>
+	<body>
+		<div id="hdr">
+			<a href="http://www.theodinproject.com"><h4 id="odin">The Odin Project</h4></a>
+			<h2 id="main">Mouse-a-Sketch Project</h2>
+		</div>
+		<div id="field">
+			<div id="options">
+				<br><p id="topOf">Options:</p>
+				<p><button id="standard" type="submit" title="Just as you remember, the classic silvery background with the dark lines, or is it...">Standard</button></p>
+				<p><button id="random" type="submit" title="Similar to the classic but with a twist of random colors instead of the dark lines.">Random</button></p>
+				<p><button id="shading" type="submit" title="You will need to go over the lines a few times if you want them darker.">Shading</button></p>
+				<p><button id="trail" type="submit" title="Check it out, like footprints in the sand your trail doesn't last very long.">Trail</button></p>
+				<p><button id="resolution" type="submit" title="Change the grid layout.">Resolution</button></p>
+				<div id="colors">Choose your color:<br>		
+					<button type="submit" class="colorPick" id="#cc0000" style="background-color:#cc0000"></button>
+					<button type="submit" class="colorPick" id="OrangeRed" style="background-color:OrangeRed"></button>
+					<button type="submit" class="colorPick" id="Gold" style="background-color:Gold"></button>
+					<button type="submit" class="colorPick" id="Teal" style="background-color:Teal"></button>
+					<button type="submit" class="colorPick" id="DarkGreen" style="background-color:DarkGreen"></button>
+					<button type="submit" class="colorPick" id="DarkTurquoise" style="background-color:DarkTurquoise"></button>
+					<button type="submit" class="colorPick" id="Navy" style="background-color:Navy"></button>
+					<button type="submit" class="colorPick" id="Indigo" style="background-color:Indigo"></button>
+					<button type="submit" class="colorPick" id="Maroon" style="background-color:Maroon"></button>
+					<button type="submit" class="colorPick" id="#333333" style="background-color:#333333"></button>
+					<button type="submit" class="colorPick" id="#d9d9d9" style="background-color:#d9d9d9"></button>
+				</div>
+			</div>
+			<div id="wrapper">
+				<div id="screen"></div>
+				<div class="knob" id="left"></div>
+				<div class="knob" id="right"></div>
+				<button id="clean" type="submit" title="Clear the screen.">Clear</button>
+			</div>
+		</div>
+
+	</body>
+</html>
